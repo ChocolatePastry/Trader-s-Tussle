@@ -8,11 +8,11 @@ import Contact from '../src/Components/Contact.jsx';
 const App = () => {
   return (
     <>
+      <Contact />
       <Home />
       <About />
       <Event />
       <Rules />
-      <Contact />
     </>
   )
 }

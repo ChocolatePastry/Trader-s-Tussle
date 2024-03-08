@@ -1,0 +1,11 @@
+.our_event{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1.5%;
+    border: 2px solid;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 48%;
+    min-height: 350px;
+    /*float:left*/
+}
