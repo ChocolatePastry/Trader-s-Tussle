@@ -1,11 +1,30 @@
-.our_event{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 1.5%;
-    border: 2px solid;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.our_event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contentOfEvent {
     text-align: center;
     box-sizing: border-box;
-    max-width: 48%;
-    min-height: 350px;
-    /*float:left*/
+    width: 900px;
+}
+
+.contentOfEvent h2 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: 12rem;
+    letter-spacing: 1rem;
+    color: white;
+}
+
+.contentOfEvent p {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
 }

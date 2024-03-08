@@ -1,7 +1,93 @@
-.rules{
-    margin: 1.5%;
-    border: 2px solid;
-    text-align: center;
-    box-sizing: border-box; 
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.rules {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
+
+.rulesContainer {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+
+.rules h2{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 9rem;
+    text-align: center;
+    color: white;
+    font-family:monospace;
+    font-weight: 900;
+}
+
+.rulesContainer h2{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 6rem;
+}
+
+.ruleSection{
+    width: 500px;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.imgsectionRules {
+  /* background-image: url(../assets/event.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+    width: 500px; /* Adjust width as needed */
+    height: auto;
+  }
+  
+  
+  .imgsectionRules .container .text {
+    margin: 0;
+    color: transparent;
+    font-weight: 900;
+    height: 800px;
+    font-size: 7rem; /* Adjust font size as needed */
+    font-family: sans-serif;
+    padding: 10px; /* Add padding for better readability */
+    text-align: center; /* Center text */
+    background-clip: text;
+    background-image: url(../assets/rule.jpg);
+    background-position: center;
+    background-size: cover; /* Ensure the background image covers the text */
+}
+
+.rulebox{
+    /* background-color: rgb(255, 255, 255); */
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    border-radius: 1rem;
+}
+
+.rulebox span{
+    color: red;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+  

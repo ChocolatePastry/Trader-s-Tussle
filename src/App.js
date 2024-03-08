@@ -5,14 +5,19 @@ import About from '../src/Components/About.jsx';
 import Event from '../src/Components/Event.jsx';
 import Rules from '../src/Components/Rules.jsx';
 import Contact from '../src/Components/Contact.jsx';
+import VideoBackground from './Components/VideoBackground.js';
 const App = () => {
   return (
     <>
-      <Contact />
-      <Home />
+    <VideoBackground/>
+      {/* <Home /> */}
       <About />
+      <br/>
       <Event />
+      <br/>
       <Rules />
+      <br/>
+      <Contact />
     </>
   )
 }
