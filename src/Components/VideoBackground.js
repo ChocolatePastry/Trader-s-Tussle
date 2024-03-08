@@ -1,5 +1,5 @@
 import React from 'react';
-import myvideo from '../assets/trade3.mp4'
+import myvideo from '../assets/trade3.mov'
 import './VideoBackground.css'; // Import CSS for styling
 import Typewriter from './Typewriter';
 

@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
 }
 
 .rulesContainer {
@@ -13,7 +12,8 @@
     justify-content: space-evenly;
     text-align: center;
     box-sizing: border-box;
-    width: 100%;
+    gap: 30px;
+    /* width: 900px; */
     padding: 20px;
     color: white;
 }
@@ -45,12 +45,16 @@
 }
 
 
+.container{
+    width: 500px;
+    height: 800px;
+}
+
+.container img{
+    width: 100%;
+}
+
 .imgsectionRules {
-  /* background-image: url(../assets/event.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-    width: 500px; /* Adjust width as needed */
     height: auto;
   }
   
@@ -80,7 +84,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 550px;
+    width: 500px;
     border-radius: 1rem;
 }
 

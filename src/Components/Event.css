@@ -12,6 +12,13 @@
     box-sizing: border-box;
     width: 900px;
 }
+.eventImg{
+    width: 900px;
+}
+
+.eventImg img{
+    width: 100%;
+}
 
 .contentOfEvent h2 {
     font-family: "Oswald", sans-serif;
