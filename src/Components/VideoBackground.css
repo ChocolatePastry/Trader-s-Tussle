@@ -16,6 +16,13 @@
   /* Ensure video stays behind other content */
 }
 
+@media only screen and (max-width: 500px) {
+  .video-background video {
+    display: block;
+    height: 100vh; /* Hide the video at this width */
+  }
+}
+
 
 .overlay-text {
   position: absolute;
@@ -42,6 +49,18 @@
   color: #fff;
 }
 
+
+@media only screen and (max-width: 500px) {
+  .overlay-text {
+    height: auto;
+    padding: 20px;
+  }
+
+  .overlay-text h1 {
+    font-size: 2.5rem;
+    padding: 20px;
+  }
+}
 
 
 /* CSS */

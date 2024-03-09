@@ -35,3 +35,22 @@
     color: rgb(255, 255, 255);
     font-weight: 400;
 }
+
+@media only screen and (max-width: 500px) {
+    .contentOfEvent {
+        width: 100%; /* Adjust the width to fit smaller screens */
+    }
+
+    .eventImg,
+    .eventImg img {
+        width: 100%; /* Make the event image responsive */
+    }
+
+    .contentOfEvent h2 {
+        font-size: 4.5rem; /* Adjust the font size for h2 */
+        letter-spacing: 0.5rem; /* Adjust the letter spacing for h2 */
+    }
+    .contentOfEvent p {
+        padding: 20px;
+    }
+}

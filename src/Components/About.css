@@ -34,3 +34,17 @@
     font-weight: 200;
     letter-spacing: 0.1rem;
 }
+
+@media only screen and (max-width: 500px) {
+    .about_us{
+padding: 20px;
+    }
+    .AboutContent h2 {
+        font-size: 4.2rem; /* Adjust the font size for h2 */
+    }
+
+    .AboutContent p {
+        padding: 30px; /* Adjust the padding for paragraphs */
+        font-size: 1rem; /* Adjust the font size for paragraphs */
+    }
+}
